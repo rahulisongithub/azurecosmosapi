@@ -4,7 +4,7 @@ var app = require('./app');
 var colors = require('colors');
 
 var server = http.createServer(app);
-server.listen(80);
+server.listen(process.env.PORT || 1337);
 
 server.on('listening', onListening);
 function onListening() {

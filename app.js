@@ -10,10 +10,7 @@ mongoose.Promise = global.Promise;
 //mongoose.connect("mongodb://localhost:27017/eCommerce", { useNewUrlParser: true });
 
 
-   mongoose.connect('mongodb://rsacosmosdb:XqutCmqmMY79HYQp7pomaZPb2H6ERw5IfvAq7SC98eGSKiJs8eNfUp4fuUnfSYSp3eT5DkNGLkgFY1guGJQezg==@rsacosmosdb.documents.azure.com:10255/eCommerce?ssl=true',{ useNewUrlParser: true })
-   .then(() => console.log('connection successful'))
-   .catch((err) => console.error(err));
-  
+   mongoose.connect('mongodb://rsacosmosdb:XqutCmqmMY79HYQp7pomaZPb2H6ERw5IfvAq7SC98eGSKiJs8eNfUp4fuUnfSYSp3eT5DkNGLkgFY1guGJQezg==@rsacosmosdb.documents.azure.com:10255/eCommerce?ssl=true',{ useNewUrlParser: true });
 var app = express();
 
 app.use(function (req, res, next) {
