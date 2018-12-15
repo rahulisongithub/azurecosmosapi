@@ -1,0 +1,16 @@
+{
+  "name": "docker_web_api_rahulsn",
+  "version": "1.1.1",
+  "author": "Rahul Navale",
+  "main": "server.js",
+  "description": "This is a rest api connected to cosmosdb in Azure",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "colors": "*",
+    "express": "*",
+    "mongoose": "*"
+  }
+}
